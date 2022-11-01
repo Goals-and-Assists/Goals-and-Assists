@@ -5,6 +5,7 @@ import Services from '../components/Services'
 import Footer from '../components/Footer'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Sidebar from '../components/SideBar'
+import Mission from '../components/Mission'
 
 const Home = () => {
 const [isOpen, setIsOpen] = useState(false)
@@ -23,6 +24,7 @@ const toggle = () => {
           toggle={toggle} 
         />
         <HeroSection />
+        <Mission />
         <Services />
         <Footer />
     </Router>

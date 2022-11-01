@@ -58,7 +58,7 @@ const Navbar = ({ toggle }) => {
                 exact='true' 
                 offset={0}
               >
-                Services
+                Our Mission
               </NavLinks>
             </NavItem>
             <NavItem>
