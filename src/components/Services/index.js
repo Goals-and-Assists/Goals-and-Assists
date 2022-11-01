@@ -12,20 +12,31 @@ const Services = () => {
   return (
     <ServicesContainer id='services'>
         <ServicesH1>
-            Our Services
+            Our Philosophy
         </ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
-                <ServicesH2>Massage</ServicesH2>
-                <ServicesP>These are the services we offer</ServicesP>
+                <ServicesH2>Education</ServicesH2>
+                <ServicesP>
+                    Education is a key pillar to everything that we do at our organization. All of our students have
+                    to perform in the classroom.
+                </ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesH2>Massage 2</ServicesH2>
-                <ServicesP>These are the services we offer</ServicesP>
+                <ServicesH2>Sports</ServicesH2>
+                <ServicesP>
+                    We strongly believe that athletics provide the discipline, structure, and support network
+                    needed to thrive in a new environment. By recruiting elite athletes, we know that they will be
+                    given the best opportunity for success.
+                </ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesH2>Massage 3</ServicesH2>
-                <ServicesP>These are the services we offer</ServicesP>
+                <ServicesH2>Character</ServicesH2>
+                <ServicesP>
+                Goals and Assists isn’t looking for just athletes, or even students. We are looking for leaders.
+                Our goal through our program is to continue the growth of strong characters of future role
+                models.
+                </ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>

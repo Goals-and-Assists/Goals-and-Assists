@@ -10,7 +10,7 @@ import {
     ArrowForward, 
     ArrowRight 
 } from './HeroElements'
-import Image from '../../images/candle.jpg'
+import Image from '../../images/GnA_Black.jpg'
 import { Button } from '../ButtonElement'
 
 const HeroSection = () => {
@@ -23,12 +23,12 @@ const HeroSection = () => {
   return (
     <HeroContainer id='home'>
         <HeroBg>
-            <ImgBg src={Image} alt='Candle' />
+            <ImgBg src={Image} alt='Goal-and-assists' />
         </HeroBg>
         <HeroContent>
-            <HeroH1>Welcome to the App</HeroH1>
+            <HeroH1>Goals and Assists</HeroH1>
             <HeroP>
-                Take a look around
+                You have the goals. We provide the assists.
             </HeroP>
             <HeroBtnWrapper>
                 <Button
@@ -43,7 +43,7 @@ const HeroSection = () => {
                     exact='true' 
                     offset={-80}                        
                 >
-                    See our Services {hover ? <ArrowForward /> : <ArrowRight />}
+                    Our Mission {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
