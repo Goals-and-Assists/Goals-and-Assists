@@ -21,7 +21,7 @@ export const MissionWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
@@ -38,13 +38,14 @@ export const MissionWrapper = styled.div`
 
 export const MissionCard = styled.div`
     background: #fff;
+    height: 500px;
+    widht: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
-    padding: 30px;
+    padding: 80px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -56,9 +57,10 @@ export const MissionCard = styled.div`
 `;
 
 export const MissionIcon = styled.img`
-    height: 160px;
-    width: 160px;
-    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 `
 
 export const MissionH1 = styled.h1`

@@ -4,14 +4,16 @@ import {
     HeroBg, 
     ImgBg, 
     HeroContent, 
-    HeroH1, 
+    // HeroH1, 
     HeroP, 
     HeroBtnWrapper, 
     ArrowForward, 
-    ArrowRight 
+    ArrowRight,
+    ImgLogo
 } from './HeroElements'
-import Image from '../../images/GnA_Black.jpg'
+import Image from '../../images/soccerball.jpg'
 import { Button } from '../ButtonElement'
+import logo from '../../images/GnA_Black.jpg'
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false)
@@ -26,7 +28,7 @@ const HeroSection = () => {
             <ImgBg src={Image} alt='Goal-and-assists' />
         </HeroBg>
         <HeroContent>
-            <HeroH1>Goals and Assists</HeroH1>
+            <ImgLogo src={logo} alt='Goals and Assists' />
             <HeroP>
                 You have the goals. We provide the assists.
             </HeroP>

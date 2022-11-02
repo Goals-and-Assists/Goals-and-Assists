@@ -10,8 +10,11 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  // ImgWrap,
+  // Img
 } from './NavbarElements'
+// import logo from '../../images/GnA_Black.jpg'
 
 
 const Navbar = ({ toggle }) => {
@@ -41,7 +44,10 @@ const Navbar = ({ toggle }) => {
             to='/'
             onClick={toggleHome}
           >
-            Logo
+            Goals and Assists
+            {/* <ImgWrap>
+              <Img src={logo} alt='Goals and Assists' />
+            </ImgWrap> */}
           </NavLogo>
           <MobileIcon
             onClick={toggle}
@@ -62,7 +68,7 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='discover'>Discover</NavLinks>
+              <NavLinks to='discover'>How to Support</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='donate'>Donate</NavLinks>
