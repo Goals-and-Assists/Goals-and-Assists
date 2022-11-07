@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 30px;
+    padding: 0 30px;
     height: 800px;
     position: relative;
     z-index: 1;
@@ -20,6 +20,10 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
         z-index: 2;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 600px;
     }
 `;
 
@@ -46,13 +50,19 @@ export const HeroContent = styled.div`
     border-radius: 10px;
     background: #000;
     opacity: 0.7;
-    width: 1000px;
+    width: auto;
+    height: auto;
     z-index: 3;
     position: absolute;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    /* @media screen and (max-width: 768px) {
+        width: 200px;
+        height: 200px;
+    } */
 `;
 
 export const HeroH1 = styled.h1`
