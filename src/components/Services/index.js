@@ -4,9 +4,13 @@ import {
     ServicesH1, 
     ServicesWrapper, 
     ServicesCard, 
-    // ServicesIcon, 
+    ServicesIcon, 
     ServicesH2, 
-    ServicesP } from './ServicesElements'
+    ServicesP,
+    // SportsIcon
+ } from './ServicesElements'
+ import {GiBookCover, GiSoccerField} from 'react-icons/gi'
+ import {RiUserStarLine} from 'react-icons/ri'
 
 const Services = () => {
   return (
@@ -16,6 +20,9 @@ const Services = () => {
         </ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
+                <ServicesIcon>
+                    <GiBookCover style={{color: '#4682b4', fontSize: '120px'}} />
+                </ServicesIcon>
                 <ServicesH2>Education</ServicesH2>
                 <ServicesP>
                     Education is a key pillar to everything that we do at our organization. All of our students have
@@ -23,6 +30,9 @@ const Services = () => {
                 </ServicesP>
             </ServicesCard>
             <ServicesCard>
+            <ServicesIcon>
+                    <GiSoccerField style={{color: '#4682b4', fontSize: '120px'}} />
+                </ServicesIcon>
                 <ServicesH2>Sports</ServicesH2>
                 <ServicesP>
                     We strongly believe that athletics provide the discipline, structure, and support network
@@ -31,6 +41,9 @@ const Services = () => {
                 </ServicesP>
             </ServicesCard>
             <ServicesCard>
+                <ServicesIcon>
+                    <RiUserStarLine style={{color: '#4682b4', fontSize: '120px'}} />
+                </ServicesIcon>
                 <ServicesH2>Character</ServicesH2>
                 <ServicesP>
                 Goals and Assists isn’t looking for just athletes, or even students. We are looking for leaders.
