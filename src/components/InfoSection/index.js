@@ -25,7 +25,7 @@ const InfoSection = () => {
                         <Column1>
                         <TextWrapper>
                             <TopLine>Goals and Assists</TopLine>
-                            <Heading>Our Mission</Heading>
+                            <Heading>Our Mission:</Heading>
                             <Subtitle>
                                 Our purpose is to provide financial and developmental assistance to nurture the athletic, academic, and
                                 character development of gifted boys and girls from all over the world. By providing them with the support
