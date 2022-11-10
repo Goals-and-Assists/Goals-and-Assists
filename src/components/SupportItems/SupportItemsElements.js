@@ -6,6 +6,8 @@ export const SupportItemsContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 5px solid red; */
+
 `
 
 export const SupportItemsWrapper = styled.div`

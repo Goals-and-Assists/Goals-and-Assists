@@ -19,7 +19,7 @@ import Image from '../../images/goals_and_assists.jpg'
 const InfoSection = () => {
     return (
         <div>
-            <InfoContainer>
+            <InfoContainer id='mission'>
                 <InfoWrapper>
                     <InfoRow>
                         <Column1>

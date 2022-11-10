@@ -6,7 +6,7 @@ import { SupportContainer, TopLine } from './Supportelements'
 
 const Support = () => {
   return (
-    <SupportContainer>
+    <SupportContainer id='support'>
       <TopLine>Ways to Support</TopLine>
       {
         supportData.map((item, index) => (

@@ -10,7 +10,7 @@ import {
 const SupportItems = ({data}) => {
   return (
     <SupportItemsContainer>
-    <SupportItemsWrapper>
+    <SupportItemsWrapper grid={data.grid}>
         <TextWrapper>
             <Heading>{data.headline}</Heading>
                 <Subtitle>
