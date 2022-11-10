@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Sidebar from '../components/SideBar'
 import InfoSection from '../components/InfoSection'
 import Support from '../components/Support'
+import Donate from '../components/Donate'
 
 const Home = () => {
 const [isOpen, setIsOpen] = useState(false)
@@ -28,6 +29,7 @@ const toggle = () => {
         <InfoSection />
         <Services />
         <Support />
+        <Donate />
         <Footer />
     </Router>
   )
