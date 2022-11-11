@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const SupportContainer = styled.div`
+    /* height: 800px; */
     color: #000;
     background: '#f9f9f9';
     display: flex;
@@ -24,14 +25,24 @@ export const TopLineWrapper = styled.div`
     align-items: center;
 `
 
-export const TopLine = styled.p`
+// export const TopLine = styled.p`
+//     color: #4682b4;
+//     font-size: 26px;
+//     line-height: 16px;
+//     font-weight: 700;
+//     letter-spacing: 1.4px;
+//     text-transform: uppercase;
+//     margin-bottom: 16px;
+//     text-align: center;
+//     flex-wrap: wrap;
+// `
+
+export const SupportH1 = styled.h1`
+    font-size: 2.5rem;
     color: #4682b4;
-    font-size: 26px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    text-align: center;
-    flex-wrap: wrap;
-`
+
+    @media screen and (max-width: 480px) {
+        font-size: 2rem;
+    }
+`;
+

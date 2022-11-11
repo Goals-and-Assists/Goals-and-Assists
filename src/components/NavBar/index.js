@@ -62,7 +62,7 @@ const Navbar = ({ toggle }) => {
                 duration={500} 
                 spy={true} 
                 exact='true' 
-                offset={0}
+                offset={-80}
               >
                 Our Mission
               </NavLinks>
@@ -74,7 +74,7 @@ const Navbar = ({ toggle }) => {
                 duration={500} 
                 spy={true} 
                 exact='true' 
-                offset={0}
+                offset={-80}
               >
                 How to Support
               </NavLinks>
@@ -86,7 +86,7 @@ const Navbar = ({ toggle }) => {
                 duration={500} 
                 spy={true} 
                 exact='true' 
-                offset={0}
+                offset={-80}
               >
                 Donate
               </NavLinks>

@@ -61,6 +61,10 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 
 export const Heading = styled.h1`

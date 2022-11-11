@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const SupportItemsContainer = styled.div`
+    /* height: 800px; */
     color: #000;
     background: '#f9f9f9';
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 50px;
     /* border: 5px solid red; */
 
 `
@@ -22,6 +24,11 @@ export const SupportItemsWrapper = styled.div`
     justify-content: center; */
     /* border: 5px solid red; */
     width: 75%;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+
+    }
 `
 
 export const TextWrapper = styled.div`

@@ -3,8 +3,8 @@ import SupportItems from '../SupportItems'
 import { supportData } from './data'
 import { 
   SupportContainer, 
-  TopLine,
-  TopLineWrapper,
+  SupportH1,
+  // TopLineWrapper,
   SupportWrapper
 } from './Supportelements'
 
@@ -12,9 +12,7 @@ import {
 const Support = () => {
   return (
     <SupportContainer id='support'>
-      <TopLineWrapper>
-        <TopLine>Ways to Support</TopLine>
-      </TopLineWrapper>
+        <SupportH1>Ways to Support</SupportH1>
       <SupportWrapper>
         {
           supportData.map((item, index) => (
