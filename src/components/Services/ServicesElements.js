@@ -8,13 +8,14 @@ export const ServicesContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #010606;
+    padding-bottom: 40px;
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: auto;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1300px;
+        height: auto;
     }
 `;
 

@@ -22,13 +22,14 @@ export const HeroContainer = styled.div`
         z-index: 2;
     }
 
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
         height: 500px;
-    }
+    } */
 `;
 
 export const HeroBg = styled.div`
     position: absolute;
+    background-position: center center;
     /* top: 0;
     right: 0;
     bottom: 0;
@@ -44,6 +45,7 @@ export const ImgBg = styled.img`
     /* -o-object-fit: cover;
     object-fit: cover;
     background: #232a34; */
+
 `;
 
 export const HeroContent = styled.div`
