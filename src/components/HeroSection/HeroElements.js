@@ -29,7 +29,6 @@ export const HeroContainer = styled.div`
 
 export const HeroBg = styled.div`
     position: absolute;
-    background-position: center center;
     /* top: 0;
     right: 0;
     bottom: 0;
@@ -117,8 +116,8 @@ export const ImgLogo = styled.img`
     height: 350px;
 
         @media screen and (max-width: 768px) {
-        height: 100%;
-        width: 100%;
-        padding-top: 20px;
+        /* height: 100%;
+        width: 100%; */
+        padding-top: 60px;
     }
 `
