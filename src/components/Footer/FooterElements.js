@@ -8,12 +8,17 @@ export const FooterContainer = styled.footer`
 export const FooterWrap = styled.div`
     padding: 48px 24px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: 0 auto;
     
+    
+    @media screen and (max-width: 768px) {
+        /* width: 100%; */
+        flex-direction: column;
+    }
 `
 
 export const FooterLinksContainer = styled.div`
@@ -35,16 +40,17 @@ export const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 16px;
+    /* margin: 16px; */
     text-align: left;
     width: 160px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     color: #fff;
+    /* margin-top: 5%; */
 
     @media screen and (max-width: 420) {
         margin: 0;
         padding: 10px;
-        width: 100%;
+        /* width: 100%; */
  }
 `
 
@@ -61,7 +67,7 @@ export const FooterLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #4682b4;
         transition: 0.3s ease-out;
     }
 `
@@ -74,7 +80,7 @@ export const FooterContactLink = styled.a`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #4682b4;
         transition: 0.3s ease-out;
     }
 `
