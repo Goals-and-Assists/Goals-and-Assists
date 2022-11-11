@@ -11,7 +11,7 @@ import {
     ArrowRight,
     ImgLogo,
     HeroContentBg,
-    HeroWrapper
+    // HeroWrapper
 } from './HeroElements'
 import Image from '../../images/soccerball2.jpg'
 import { Button } from '../ButtonElement'
@@ -26,7 +26,6 @@ const HeroSection = () => {
 
   return (
     <HeroContainer id='home'>
-        <HeroWrapper>
             <HeroBg>
                 <ImgBg src={Image} alt='Goal-and-assists' />
             </HeroBg>
@@ -54,7 +53,6 @@ const HeroSection = () => {
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
-        </HeroWrapper>
     </HeroContainer>
   )
 }

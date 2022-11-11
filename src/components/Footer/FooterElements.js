@@ -12,7 +12,7 @@ export const FooterWrap = styled.div`
     justify-content: center;
     align-items: center;
     /* max-width: 1100px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
     
     @media screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ export const FooterLinkItems = styled.div`
     align-items: flex-start;
     /* margin: 16px; */
     text-align: left;
-    width: 160px;
+    width: 120px;
     /* box-sizing: border-box; */
     color: #fff;
     /* margin-top: 5%; */
