@@ -21,13 +21,13 @@ const Sidebar = ({ toggle, isOpen}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to='mission' onClick={toggle}>
+                <SidebarLink to='mission' offset={-80} onClick={toggle}>
                     Our Mission
                 </SidebarLink>
-                <SidebarLink to='support' onClick={toggle}>
+                <SidebarLink to='support' offset={-80} onClick={toggle}>
                     How to Support
                 </SidebarLink>
-                <SidebarLink to='donate' onClick={toggle}>
+                <SidebarLink to='donate' offset={-80} onClick={toggle}>
                     Donate
                 </SidebarLink>
             </SidebarMenu>
