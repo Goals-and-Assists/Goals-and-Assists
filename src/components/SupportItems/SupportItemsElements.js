@@ -19,14 +19,12 @@ export const SupportItemsWrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
-    justify-content: center;
-    border: 5px solid red; */
-
-    /* border: 5px solid blue; */
+    justify-content: center; */
+    border: 5px solid red;
 `
 
 export const TextWrapper = styled.div`
-    width: 1200px;
+    width: 100%;
 `
 export const Heading = styled.h1`
     margin-bottom: 24px;
