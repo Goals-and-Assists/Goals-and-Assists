@@ -22,9 +22,15 @@ export const HeroContainer = styled.div`
         z-index: 2;
     }
 
-    /* @media screen and (max-width: 768px) {
-        height: 500px;
-    } */
+    @media screen and (max-width: 768px) {
+        
+    }
+`;
+
+export const HeroWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const HeroBg = styled.div`
@@ -63,6 +69,12 @@ export const HeroContent = styled.div`
         width: 100%;
     }
 `;
+
+export const HeroContentBg = styled.div`
+    display: flex;
+`;
+
+
 
 export const HeroH1 = styled.h1`
     color: #fff;
