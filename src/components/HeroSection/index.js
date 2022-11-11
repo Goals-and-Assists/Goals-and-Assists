@@ -11,7 +11,6 @@ import {
     ArrowRight,
     ImgLogo,
     HeroContentBg,
-    // HeroWrapper
 } from './HeroElements'
 import Image from '../../images/soccerball2.jpg'
 import { Button } from '../ButtonElement'
