@@ -11,7 +11,7 @@ import {
     ArrowRight,
     ImgLogo
 } from './HeroElements'
-import Image from '../../images/soccerball3.jpg'
+import Image from '../../images/soccerball2.jpg'
 import { Button } from '../ButtonElement'
 import logo from '../../images/GnA_Black.jpg'
 
