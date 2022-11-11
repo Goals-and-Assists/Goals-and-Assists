@@ -25,7 +25,7 @@ export const SupportItemsWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div`
-    width: 100%;
+    /* width: 100%; */
 `
 export const Heading = styled.h1`
     margin-bottom: 24px;
