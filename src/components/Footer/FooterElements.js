@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
+import { Link as LinkS } from 'react-scroll'
 
 export const FooterContainer = styled.footer`
     background-color: #101522;
@@ -12,6 +13,7 @@ export const FooterWrap = styled.div`
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
+    
 `
 
 export const FooterLinksContainer = styled.div`
@@ -36,7 +38,7 @@ export const FooterLinkItems = styled.div`
     margin: 16px;
     text-align: left;
     width: 160px;
-    box-sizing: borger-box;
+    box-sizing: border-box;
     color: #fff;
 
     @media screen and (max-width: 420) {
@@ -51,11 +53,25 @@ export const FooterLinkTitle = styled.div`
     margin-bottom: 16px;
 `
 
-export const FooterLink = styled(Link)`
+export const FooterLink = styled(LinkS)`
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
+    cursor: pointer;
+
+    &:hover {
+        color: #01bf71;
+        transition: 0.3s ease-out;
+    }
+`
+
+export const FooterContactLink = styled.a`
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    cursor: pointer;
 
     &:hover {
         color: #01bf71;

@@ -7,7 +7,7 @@ import {
 
 const Donate = () => {
   return (
-    <DonateContainer>
+    <DonateContainer id='donate'>
         <DonateWrapper>
             <DonateH1>
                 Donate to Goals and Assists
