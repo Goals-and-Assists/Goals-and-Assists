@@ -20,7 +20,8 @@ export const SupportItemsWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center; */
-    border: 5px solid red;
+    /* border: 5px solid red; */
+    width: 75%;
 `
 
 export const TextWrapper = styled.div`
