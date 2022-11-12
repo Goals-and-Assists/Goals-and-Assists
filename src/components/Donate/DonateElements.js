@@ -3,11 +3,14 @@ import styled from "styled-components";
 export const DonateContainer = styled.div`
     background: #010606; 
     height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export const DonateWrapper = styled.div`
-    font-size: 30px;
-    color: #fff;
+    padding: 50px 50px;
 `
 export const DonateH1 = styled.h1`
     font-size: 2.5rem;
