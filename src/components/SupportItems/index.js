@@ -19,6 +19,9 @@ const SupportItems = ({data}) => {
                 <Subtitle>
                     {data.description2}
                 </Subtitle>
+                <Subtitle>
+                    {data.description3}
+                </Subtitle>
             </TextWrapper>
     </SupportItemsWrapper>
 </SupportItemsContainer>
