@@ -23,12 +23,6 @@ export const HeroContainer = styled.div`
     }
 `;
 
-export const HeroWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
 export const HeroBg = styled.div`
     position: absolute;
     /* top: 0;
@@ -46,7 +40,8 @@ export const ImgBg = styled.img`
     /* -o-object-fit: cover;
     object-fit: cover;
     background: #232a34; */
-
+    /* background-size: auto;
+    object-fit: fill; */
 `;
 
 export const HeroContent = styled.div`
@@ -68,8 +63,6 @@ export const HeroContent = styled.div`
 export const HeroContentBg = styled.div`
     display: flex;
 `;
-
-
 
 export const HeroH1 = styled.h1`
     color: #fff;

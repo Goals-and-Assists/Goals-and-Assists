@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {FaTimes} from 'react-icons/fa'
-import { Link as LinkR } from 'react-router-dom'
+// import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 
@@ -17,6 +17,7 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    border: 5px solid blue;
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -42,6 +43,10 @@ export const SidebarMenu = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows:repeat(6, 80px);
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    /* border: 5px solid green; */
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(6, 60px);
@@ -58,34 +63,35 @@ export const SidebarLink = styled(LinkS)`
     transition: 0.2s ease-in-out;
     color: #fff;
     cursor: pointer;
+    /* border: 5px solid red; */
 
     &:hover {
-        color: #01bf71;
+        color: #4682b4;
         transition: 0.2s ease-in-out;
     }
 `;
 
-export const SideBtnWrap = styled.div`
-    display: flex;
-    justify-content: center;
-`;
+// export const SideBtnWrap = styled.div`
+//     display: flex;
+//     justify-content: center;
+// `;
 
-export const SidebarRoute = styled(LinkR)`
-    border-radius: 50px;
-    background: #01bf71;
-    white-space: nowrap;
-    padding: 16px 64px;
-    color: #010606;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
+// export const SidebarRoute = styled(LinkR)`
+//     border-radius: 50px;
+//     background: #01bf71;
+//     white-space: nowrap;
+//     padding: 16px 64px;
+//     color: #010606;
+//     font-size: 16px;
+//     outline: none;
+//     border: none;
+//     cursor: pointer;
+//     transition: all 0.2s ease-in-out;
+//     text-decoration: none;
 
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
-    }
-`;
+//     &:hover {
+//         transition: all 0.2s ease-in-out;
+//         background: #fff;
+//         color: #010606;
+//     }
+// `;
