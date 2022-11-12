@@ -52,6 +52,7 @@ export const Subtitle = styled.p`
     line-height: 1.2;
     color:  '#fff';
     text-indent: 2%;
+    text-align: justify;
 
     @media screen and (max-width: 768px) {
         text-indent: 10%;
