@@ -21,7 +21,7 @@ const Donate = () => {
                 Donate to Goals and Assists
             </DonateH1>
             <PayPalWrapper>
-              <DonateH2>Donate with PayPal</DonateH2>
+              <DonateH2>Donate with PayPal {'(Coming soon!)'}</DonateH2>
               <PayPalBtnWrap>
                 <PayPalCheckoutButton product={product} />
               </PayPalBtnWrap>

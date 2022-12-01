@@ -1,8 +1,10 @@
+import { PayPalButtons } from "@paypal/react-paypal-js"
+
 const PayPalCheckoutButton = (props) => {
-    const { product } = props
+    // const { product } = props
 
     return (
-        <></>
+        <PayPalButtons />
     )
 }
 
