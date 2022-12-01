@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
+        <NavbarContainer id='nav'>
           <NavLogo 
             to='/'
             onClick={toggleHome}

@@ -26,5 +26,26 @@ export const DonateH1 = styled.h1`
     }
 `;
 
+export const DonateH2 = styled.h1`
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 64px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    text-allign: center;
+
+    @media screen and (max-width: 480px) {
+        font-size: 1rem;
+    }
+`;
+
+export const PayPalWrapper = styled.div`
+    
+`
+
+export const PayPalBtnWrap = styled.div`
+    
+`
 
 
