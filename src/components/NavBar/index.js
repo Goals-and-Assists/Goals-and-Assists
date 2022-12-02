@@ -36,6 +36,10 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop()
   }
 
+  const navigateDonate = () => {
+    scroll.scrollToBottom()
+  }
+
   return (
     <>
       <Nav scrollNav={scrollNav}>
@@ -93,7 +97,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/donate'>Ways to Donate</NavBtnLink>
+            <NavBtnLink onClick={navigateDonate}>Ways to Donate</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
