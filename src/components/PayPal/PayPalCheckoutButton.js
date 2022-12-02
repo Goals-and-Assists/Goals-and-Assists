@@ -4,7 +4,15 @@ const PayPalCheckoutButton = (props) => {
     // const { product } = props
 
     return (
-        <PayPalButtons />
+        <PayPalButtons 
+            style={{
+                // color:'silver',
+                // layout: 'horizontal',
+                height: 48,
+                // tagline: false,
+                shape: 'pill'
+            }}
+        />
     )
 }
 
