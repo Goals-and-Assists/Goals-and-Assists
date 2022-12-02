@@ -19,6 +19,7 @@ import {
     SocialIcons,
     SocialIconLink,
     WebsiteRights,
+    WebsiteRightsWrapper,
     ImgWrap,
     Img
 } from './FooterElements'
@@ -68,7 +69,10 @@ const Footer = () => {
                         <Img src={logo} alt='Goals and Assists'/>
                     </ImgWrap>
                 </SocialLogo>
-                <WebsiteRights>Goals and Assists © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                <WebsiteRightsWrapper>
+                    <WebsiteRights>Goals and Assists © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                    <WebsiteRights>501c3 tax-exempt organization, EIN 87-3901111</WebsiteRights>
+                </WebsiteRightsWrapper>
                     <SocialIcons>
                         <SocialIconLink href='//www.instagram.com/goalsandassists/' target='_blank' aria-label='Instagram'>
                             <FaInstagram />

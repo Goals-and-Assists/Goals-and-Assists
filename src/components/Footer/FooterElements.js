@@ -113,6 +113,12 @@ export const SocialLogo = styled(Link)`
     font-weight: bold;
 `
 
+export const WebsiteRightsWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+` 
+
 export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
