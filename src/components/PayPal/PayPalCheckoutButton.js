@@ -31,7 +31,8 @@ const PayPalCheckoutButton = (props) => {
     return (
         <PayPalButtons 
             style={{
-                shape: 'pill'
+                shape: 'pill',
+                label: 'donate'
             }}
             // onClick={(data, actions) => {
             //     // Validate on button click, client or server side
