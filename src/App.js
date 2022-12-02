@@ -4,7 +4,7 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 
 const App = () => {
   return (
-    <PayPalScriptProvider options={{'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID}}>
+    <PayPalScriptProvider options={{'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID, 'disable-funding': 'card'}}>
       <>
         <Home />
       </>
@@ -13,3 +13,5 @@ const App = () => {
 }
 
 export default App
+
+
