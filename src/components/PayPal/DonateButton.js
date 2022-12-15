@@ -1,5 +1,8 @@
-import React, { useEffect, useMemo, useRef } from 'react';
+import React from 'react';
 // import { Helmet } from 'react-helmet'
+import {
+    DonateFormContainer
+} from './DonateFormElements'
 
 // let counter = 0;
 
@@ -22,14 +25,30 @@ const DonateButton = () => {
     //     });
     //     button.render(`#${buttonId}`); // you can change the code and run it when DOM is ready
     // }, []);
+    // const buttonId = 'donate-button';
+
+    // useEffect(() => {
+    //     const button = window.PayPal.Donation.Button({
+    //         env:'production',
+    //         hosted_button_id:'7AKSXYMXWZYRU',
+    //         image: {
+    //         src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+    //         alt:'Donate with PayPal button',
+    //         title:'PayPal - The safer, easier way to pay online!',
+    //         }
+    //         })
+    //         button.render('#donate-button');
+    // })
     return (
         // <div ref={buttonRef} id={buttonId} />
         <>
+        <DonateFormContainer>
             <form action="https://www.paypal.com/donate" method="post" target="_top">
             <input type="hidden" name="hosted_button_id" value="ZJNQ8XKDM8H86" />
             <input type="image" src="https://pics.paypal.com/00/s/NDQ1NTRjMDktMGFmNC00NmFjLTg3NzMtOGI2YTBkM2QzMWY1/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
             </form>
+        </DonateFormContainer>
         </>
     );
 };
