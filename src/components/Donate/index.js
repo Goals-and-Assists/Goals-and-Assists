@@ -8,14 +8,15 @@ import {
     PayPalWrapper,
     PayPalBtnWrap
 } from './DonateElements'
-// import PayPalCheckoutButton from '../PayPal/PayPalCheckoutButton'
-import DonateForm from '../PayPal/DonateForm'
+import PayPalCheckoutButton from '../PayPal/PayPalCheckoutButton'
+// import DonateForm from '../PayPal/DonateForm'
+import DonateButton from '../PayPal/DonateButton'
 
 const Donate = () => {
-  // const product = {
-  //   description: "Donate to International students in the US",
-  //   price: 25
-  // }
+  const product = {
+    description: "Donate to International students in the US",
+    price: 25
+  }
   return (
     <PayPalScriptProvider
       options={{
@@ -32,8 +33,9 @@ const Donate = () => {
               <PayPalWrapper>
                 <DonateH2>Donate with PayPal {'(Coming soon!)'}</DonateH2>
                 <PayPalBtnWrap>
-                  {/* <PayPalCheckoutButton product={product} /> */}
-                  <DonateForm />
+                  <PayPalCheckoutButton product={product} />
+                  {/* <DonateForm /> */}
+                  <DonateButton />
                 </PayPalBtnWrap>
               </PayPalWrapper>
           </DonateWrapper>
