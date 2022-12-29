@@ -1,48 +1,43 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import { Helmet } from 'react-helmet'
 import {
     DonateFormContainer
 } from './DonateFormElements'
 
-// let counter = 0;
-
-// const generateId = () => {
-//     return `ID-${++counter}`; // if it is necessary, use some better unique id generator
-// };
+// const paypal = window.PayPal.Donation.Button({
+//     env:'production',
+//     hosted_button_id:'JPB9347CK6TZE',
+//     image: {
+//     src:'https://pics.paypal.com/00/s/NDQ1NTRjMDktMGFmNC00NmFjLTg3NzMtOGI2YTBkM2QzMWY1/file.PNG',
+//     alt:'Donate with PayPal button',
+//     title:'PayPal - The safer, easier way to pay online!',
+//     }
+//     })
 
 const DonateButton = () => {
-    // const buttonRef = useRef(null);
-    // const buttonId = 'Z9PE2RJPT8LG8';
+    // const buttonId = 'donate-button'
     // useEffect(() => {
     //     const button = window.PayPal.Donation.Button({
-    //         env:'sandbox',
-    //         hosted_button_id:'Z9PE2RJPT8LG8',
+    //         env:'production',
+    //         hosted_button_id:'JPB9347CK6TZE',
     //         image: {
-    //         src:'https://pics-v2.sandbox.paypal.com/00/s/NzZlZTI0MjUtNzg4ZC00N2VlLThlODktNTkzYjM5MTQ5YmNj/file.PNG',
+    //         src:'https://pics.paypal.com/00/s/NDQ1NTRjMDktMGFmNC00NmFjLTg3NzMtOGI2YTBkM2QzMWY1/file.PNG',
     //         alt:'Donate with PayPal button',
     //         title:'PayPal - The safer, easier way to pay online!',
     //         }
     //     });
     //     button.render(`#${buttonId}`); // you can change the code and run it when DOM is ready
-    // }, []);
-    // const buttonId = 'donate-button';
-
-    // useEffect(() => {
-    //     const button = window.PayPal.Donation.Button({
-    //         env:'production',
-    //         hosted_button_id:'7AKSXYMXWZYRU',
-    //         image: {
-    //         src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
-    //         alt:'Donate with PayPal button',
-    //         title:'PayPal - The safer, easier way to pay online!',
-    //         }
-    //         })
-    //         button.render('#donate-button');
-    // })
+    // }, [buttonId]);
     return (
-        // <div ref={buttonRef} id={buttonId} />
+        
         <>
         <DonateFormContainer>
+        {/* <div id="paypal-donate-button-container"></div> */}
+        {/* <div id={buttonId} /> */}
+        {/* <div id={containerId}>
+        <div id={buttonId}></div>
+        {paypal.render(`#${buttonId}`)} */}
+        
             <form action="https://www.paypal.com/donate" method="post" target="_top">
             <input type="hidden" name="hosted_button_id" value="ZJNQ8XKDM8H86" />
             <input type="image" src="https://pics.paypal.com/00/s/NDQ1NTRjMDktMGFmNC00NmFjLTg3NzMtOGI2YTBkM2QzMWY1/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />

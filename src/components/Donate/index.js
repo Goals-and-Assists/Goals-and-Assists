@@ -11,6 +11,7 @@ import {
 // import PayPalCheckoutButton from '../PayPal/PayPalCheckoutButton'
 // import DonateForm from '../PayPal/DonateForm'
 import DonateButton from '../PayPal/DonateButton'
+import AmazonSmile from '../AmazonSmile/AmazonSmile'
 
 const Donate = () => {
   // const product = {
@@ -38,6 +39,9 @@ const Donate = () => {
                   <DonateButton />
                 </PayPalBtnWrap>
               </PayPalWrapper>
+              {/* <PayPalWrapper>
+                  <AmazonSmile />
+              </PayPalWrapper> */}
           </DonateWrapper>
       </DonateContainer>
     </PayPalScriptProvider>
