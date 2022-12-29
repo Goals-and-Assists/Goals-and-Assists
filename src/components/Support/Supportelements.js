@@ -39,7 +39,7 @@ export const TopLineWrapper = styled.div`
 
 export const SupportH1 = styled.h1`
     font-size: 2.5rem;
-    color: #4682b4;
+    color: #01426C;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

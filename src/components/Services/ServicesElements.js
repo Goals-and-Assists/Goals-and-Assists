@@ -63,9 +63,9 @@ export const ServicesIcon = styled.div`
     width: 160px; */
     /* margin-bottom: 10px; */
     font-size: 0px;
-    currentColor: '#4682b4';
-    fill: '#4682b4';
-    stroke: '#4682b4';
+    currentColor: '#01426C';
+    fill: '#01426C';
+    stroke: '#01426C';
     /* border: 5px solid red; */
 `
 
@@ -92,5 +92,5 @@ export const ServicesP = styled.p`
 `
 
 export const SportsIcon = styled(GiSoccerField)`
-    color: '#4682b4';
+    color: '#01426C';
 `
