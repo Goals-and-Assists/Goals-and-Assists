@@ -75,7 +75,6 @@ export const NavItem = styled.li`
 
 export const NavLinks = styled(LinkS)`
     color: #fff;
-    /* color: ${({scrollNav}) => scrollNav ? '#fff' : '#000'}; */
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -85,7 +84,7 @@ export const NavLinks = styled(LinkS)`
     font-weight: bold;
 
     &.active {
-        border-bottom: 3px solid #4682b4;
+        border-bottom: 3px solid #F7B11D;
     }
 `;
 
@@ -100,7 +99,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #E1C16E;
+    background: #F7B11D;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
@@ -109,6 +108,7 @@ export const NavBtnLink = styled(LinkR)`
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    font-weight: bold;
     text-decoration: none;
 
     &:hover {

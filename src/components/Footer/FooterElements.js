@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const FooterContainer = styled.footer`
-    background: #101522;
+    /* background: #101522; */
+    background-color: #01426C;
 `
 export const FooterWrap = styled.div`
     padding: 48px 24px;
