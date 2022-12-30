@@ -17,7 +17,7 @@ const DonateButton = () => {
             }
         });
         button.render(`#${buttonRef.current.id}`)
-    }, [buttonId, buttonRef]);
+    }, []);
     return (
         
         <>
