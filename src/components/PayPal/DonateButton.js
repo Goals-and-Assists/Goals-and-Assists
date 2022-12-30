@@ -16,8 +16,8 @@ const DonateButton = () => {
             title:'PayPal - The safer, easier way to pay online!',
             }
         });
-        button.render(`#${buttonId}`)
-    }, [buttonId]);
+        button.render(`#${buttonRef.current.id}`)
+    }, [buttonId, buttonRef]);
     return (
         
         <>
