@@ -55,7 +55,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: #01426C;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -63,7 +63,7 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
 
     @media screen and (max-width: 768px) {
-        font-size: 16px;
+        font-size: 18px;
     }
 `
 
