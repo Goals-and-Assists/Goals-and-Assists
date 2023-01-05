@@ -32,27 +32,33 @@ const Donate = () => {
               <DonateH1>
                   Donate to Goals and Assists
               </DonateH1>
+              <DonateH2>
+                Your donations allow us provide the financial stability needed to support these students and these programs.
+              </DonateH2>
           <DonateWrapper>
               <DonateOptionWrapper>
-                <DonateH2>Donate with PayPal</DonateH2>
-                <DonateH3>Make a one time or monthly recurring donation</DonateH3>
-                <PayPalBtnWrap>
-                  <DonateButton />
-                </PayPalBtnWrap>
-              </DonateOptionWrapper>
-              <DonateOptionWrapper>
-                <DonateH2>Donate with Amazon Smile</DonateH2>
-                <DonateH3>Make Goals and Assists your charity of choice when you shop using AmazonSmile and .05% of the profits will automatically be doanted to us!</DonateH3>
-              </DonateOptionWrapper>
-              <DonateOptionWrapper>
-                <DonateH2>Donate with Zelle</DonateH2>
-                <DonateH3>Send your doantion to Goals and Assists using Zelle</DonateH3>
-              </DonateOptionWrapper>
-              <DonateOptionWrapper>
-                <DonateH2>Send a Check to Goals and Assists</DonateH2>
-                <DonateH3>Email us at info@goalsandassists.org for infomration on where to send your donation check</DonateH3>
-              </DonateOptionWrapper>
-          </DonateWrapper>
+                  <DonateH2>Donate with PayPal</DonateH2>
+                  <DonateH3>Make a one time or monthly recurring donation</DonateH3>
+                  <PayPalBtnWrap>
+                    <DonateButton />
+                  </PayPalBtnWrap>
+                </DonateOptionWrapper>
+                <DonateOptionWrapper>
+                  <DonateH2>Donate with Amazon Smile</DonateH2>
+                  <DonateH3>Make Goals and Assists your charity of choice when you shop using AmazonSmile and .05% of the profits will automatically be doanted to us!</DonateH3>
+                </DonateOptionWrapper>
+                </DonateWrapper>
+              <DonateWrapper>
+                <DonateOptionWrapper>
+                  <DonateH2>Donate with Zelle</DonateH2>
+                  <DonateH3>Send your doantion to Goals and Assists using Zelle</DonateH3>
+                </DonateOptionWrapper>
+                <DonateOptionWrapper>
+                  <DonateH2>Send a Check to Goals and Assists</DonateH2>
+                  <DonateH3>Email us at info@goalsandassists.org for infomration on where to send your donation check</DonateH3>
+                </DonateOptionWrapper>
+              </DonateWrapper>
+
       </DonateContainer>
     </PayPalScriptProvider>
   )
