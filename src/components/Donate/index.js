@@ -5,13 +5,15 @@ import {
     DonateWrapper,
     DonateH1,
     DonateH2, 
-    PayPalWrapper,
+    DonateH3,
+    DonateOptionWrapper,
     PayPalBtnWrap
 } from './DonateElements'
 // import PayPalCheckoutButton from '../PayPal/PayPalCheckoutButton'
 // import DonateForm from '../PayPal/DonateForm'
 import DonateButton from '../PayPal/DonateButton'
 // import AmazonSmile from '../AmazonSmile/AmazonSmile'
+// import DonateOptions from '../DonateOptions/DonateOptions'
 
 const Donate = () => {
   // const product = {
@@ -27,21 +29,29 @@ const Donate = () => {
       }}
     >
       <DonateContainer id='donate'>
-          <DonateWrapper>
               <DonateH1>
                   Donate to Goals and Assists
               </DonateH1>
-              <PayPalWrapper>
-                <DonateH2>Donate with PayPal {'(Coming soon!)'}</DonateH2>
+          <DonateWrapper>
+              <DonateOptionWrapper>
+                <DonateH2>Donate with PayPal</DonateH2>
+                <DonateH3>Make a one time or monthly recurring donation</DonateH3>
                 <PayPalBtnWrap>
-                  {/* <PayPalCheckoutButton product={product} /> */}
-                  {/* <DonateForm /> */}
                   <DonateButton />
                 </PayPalBtnWrap>
-              </PayPalWrapper>
-              {/* <PayPalWrapper>
-                  <AmazonSmile />
-              </PayPalWrapper> */}
+              </DonateOptionWrapper>
+              <DonateOptionWrapper>
+                <DonateH2>Donate with Amazon Smile</DonateH2>
+                <DonateH3>Make Goals and Assists your charity of choice when you shop using AmazonSmile and .05% of the profits will automatically be doanted to us!</DonateH3>
+              </DonateOptionWrapper>
+              <DonateOptionWrapper>
+                <DonateH2>Donate with Zelle</DonateH2>
+                <DonateH3>Send your doantion to Goals and Assists using Zelle</DonateH3>
+              </DonateOptionWrapper>
+              <DonateOptionWrapper>
+                <DonateH2>Send a Check to Goals and Assists</DonateH2>
+                <DonateH3>Email us at info@goalsandassists.org for infomration on where to send your donation check</DonateH3>
+              </DonateOptionWrapper>
           </DonateWrapper>
       </DonateContainer>
     </PayPalScriptProvider>

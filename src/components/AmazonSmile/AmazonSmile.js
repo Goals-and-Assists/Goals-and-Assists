@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import {
     AmazonSmileContainer,
-    AmazonImg
+    // AmazonImg
 } from './AmazonSmileElements'
-import Amazon from '../../images/amazon-smile.png'
+// import Amazon from '../../images/amazon-smile.png'
 
 
 const AmazonSmile = () => {
@@ -13,7 +13,8 @@ const AmazonSmile = () => {
 
   return (
     <AmazonSmileContainer>
-        <AmazonImg src={Amazon} alt='Amazon Smile banner' />
+        {/* <AmazonImg src={Amazon} alt='Amazon Smile banner' /> */}
+        
     </AmazonSmileContainer>
   )
 }

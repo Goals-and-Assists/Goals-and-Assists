@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DonateContainer = styled.div`
+export const DonateOptionContainer = styled.div`
     background: #010606; 
     height: 800px;
     display: flex;
@@ -9,19 +9,11 @@ export const DonateContainer = styled.div`
     align-items: center;
 `
 
-export const DonateWrapper = styled.div`
-    padding: 50px 50px;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* border: 3px solid red; */
-`
 export const DonateH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 64px;
-    /* padding-left: 15px; */
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     text-allign: center;
@@ -35,7 +27,7 @@ export const DonateH2 = styled.h1`
     font-size: 1.5rem;
     color: #fff;
     margin-bottom: 10px;
-    /* padding-left: 15px; */
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     text-allign: center;
@@ -48,10 +40,10 @@ export const DonateH2 = styled.h1`
 export const DonateH3 = styled.h1`
     font-size: 1rem;
     color: #fff;
-    margin-bottom: 40px;
-    /* padding: 15px; */
+    margin-bottom: 64px;
+    padding-left: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     text-allign: center;
 
     @media screen and (max-width: 480px) {
@@ -63,12 +55,6 @@ export const DonateOptionWrapper = styled.div`
     border: 1px solid #fff;
     height: 300px;
     width: 400px;
-    margin: 10px;
-    padding: 10px;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* border: 3px solid green; */
-
 `
 
 export const PayPalBtnWrap = styled.div`
