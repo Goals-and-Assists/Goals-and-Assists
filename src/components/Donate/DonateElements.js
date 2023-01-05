@@ -10,7 +10,7 @@ export const DonateContainer = styled.div`
 `
 
 export const DonateWrapper = styled.div`
-    padding: 50px 50px;
+    padding: 25px 25px;
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
@@ -49,7 +49,7 @@ export const DonateH3 = styled.h1`
     font-size: 1rem;
     color: #fff;
     margin-bottom: 40px;
-    /* padding: 15px; */
+    /* padding-left: 10px; */
     display: flex;
     justify-content: center;
     text-allign: center;
@@ -61,12 +61,13 @@ export const DonateH3 = styled.h1`
 
 export const DonateOptionWrapper = styled.div`
     border: 1px solid #fff;
-    height: 180px;
-    width: 400px;
+    height: 280px;
+    width: 450px;
     margin: 10px;
     padding: 10px;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     /* border: 3px solid green; */
 
 `

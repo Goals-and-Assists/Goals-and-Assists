@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import {
     AmazonSmileContainer,
-    // AmazonImg
+    AmazonImg
 } from './AmazonSmileElements'
-// import Amazon from '../../images/amazon-smile.png'
+import Amazon from '../../images/amazon-smile.png'
 
 
 const AmazonSmile = () => {
@@ -13,7 +13,12 @@ const AmazonSmile = () => {
 
   return (
     <AmazonSmileContainer>
-        {/* <AmazonImg src={Amazon} alt='Amazon Smile banner' /> */}
+        <a href='https://smile.amazon.com/ch/87-3901111' target='blank'>
+            <AmazonImg 
+                src={Amazon} 
+                alt='Amazon Smile banner'
+            />
+        </a>
         
     </AmazonSmileContainer>
   )

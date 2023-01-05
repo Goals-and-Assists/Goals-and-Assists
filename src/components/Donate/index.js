@@ -12,7 +12,8 @@ import {
 // import PayPalCheckoutButton from '../PayPal/PayPalCheckoutButton'
 // import DonateForm from '../PayPal/DonateForm'
 import DonateButton from '../PayPal/DonateButton'
-// import AmazonSmile from '../AmazonSmile/AmazonSmile'
+import Zelle from '../Zelle/Zelle'
+import AmazonSmile from '../AmazonSmile/AmazonSmile'
 // import DonateOptions from '../DonateOptions/DonateOptions'
 
 const Donate = () => {
@@ -45,17 +46,21 @@ const Donate = () => {
                 </DonateOptionWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Donate with Amazon Smile</DonateH2>
-                  <DonateH3>Make Goals and Assists your charity of choice when you shop using AmazonSmile and .05% of the profits will automatically be doanted to us!</DonateH3>
+                  <DonateH3>Make Goals and Assists your beneficiary on AmazonSmile and .05% of the profits will automatically be doanted to us!
+                  </DonateH3>
+                  <AmazonSmile />
                 </DonateOptionWrapper>
                 </DonateWrapper>
               <DonateWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Donate with Zelle</DonateH2>
                   <DonateH3>Send your doantion to Goals and Assists using Zelle</DonateH3>
+                  <Zelle />
                 </DonateOptionWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Send a Check to Goals and Assists</DonateH2>
-                  <DonateH3>Email us at goalsandassistsorg@gmail.com for infomration on where to send your donation check</DonateH3>
+                  <DonateH3>Email us for infomration on where to send your donation check:</DonateH3>
+                  <DonateH3>goalsandassistsorg@gmail.com</DonateH3>
                 </DonateOptionWrapper>
               </DonateWrapper>
 
