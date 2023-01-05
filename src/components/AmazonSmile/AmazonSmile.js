@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
     AmazonSmileContainer,
     AmazonImg
@@ -7,6 +7,10 @@ import Amazon from '../../images/amazon-smile.png'
 
 
 const AmazonSmile = () => {
+  useEffect(() => {
+    
+  })
+
   return (
     <AmazonSmileContainer>
         <AmazonImg src={Amazon} alt='Amazon Smile banner' />
