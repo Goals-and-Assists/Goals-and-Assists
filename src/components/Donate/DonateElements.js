@@ -7,6 +7,10 @@ export const DonateContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 480px) {
+        height: auto;
+    }
 `
 
 export const DonateWrapper = styled.div`
@@ -16,7 +20,19 @@ export const DonateWrapper = styled.div`
     /* justify-content: space-between; */
     /* align-items: center; */
     /* border: 3px solid red; */
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+    }
 `
+
+export const DonateHeaderWrapper = styled.div`
+    padding: 25px 25px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* border: 3px solid red; */
+`
+
 export const DonateH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
@@ -60,7 +76,7 @@ export const DonateH3 = styled.h1`
 `;
 
 export const DonateOptionWrapper = styled.div`
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     height: 280px;
     width: 450px;
     margin: 10px;
@@ -70,6 +86,10 @@ export const DonateOptionWrapper = styled.div`
     /* justify-content: center; */
     /* border: 3px solid green; */
 
+    @media screen and (max-width: 480px) {
+        height: 200px;
+        width: 300px;
+    }
 `
 
 export const PayPalBtnWrap = styled.div`

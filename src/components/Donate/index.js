@@ -3,6 +3,7 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 import {
     DonateContainer,
     DonateWrapper,
+    DonateHeaderWrapper,
     DonateH1,
     DonateH2, 
     DonateH3,
@@ -30,12 +31,14 @@ const Donate = () => {
       }}
     >
       <DonateContainer id='donate'>
+            <DonateHeaderWrapper>
               <DonateH1>
                   Donate to Goals and Assists
               </DonateH1>
               <DonateH2>
                 Your donation allow us provide the financial stability needed to support these students and these programs.
               </DonateH2>
+            </DonateHeaderWrapper>
           <DonateWrapper>
               <DonateOptionWrapper>
                   <DonateH2>Donate with PayPal</DonateH2>
