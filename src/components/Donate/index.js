@@ -34,7 +34,7 @@ const Donate = () => {
                   Donate to Goals and Assists
               </DonateH1>
               <DonateH2>
-                Your donations allow us provide the financial stability needed to support these students and these programs.
+                Your donation allow us provide the financial stability needed to support these students and these programs.
               </DonateH2>
           <DonateWrapper>
               <DonateOptionWrapper>
@@ -46,20 +46,19 @@ const Donate = () => {
                 </DonateOptionWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Donate with Amazon Smile</DonateH2>
-                  <DonateH3>Make Goals and Assists your beneficiary on AmazonSmile and .05% of the profits will automatically be doanted to us!
-                  </DonateH3>
+                  <DonateH3>Make Goals and Assists your beneficiary on AmazonSmile</DonateH3>
                   <AmazonSmile />
                 </DonateOptionWrapper>
                 </DonateWrapper>
               <DonateWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Donate with Zelle</DonateH2>
-                  <DonateH3>Send your doantion to Goals and Assists using Zelle</DonateH3>
+                  <DonateH3>Send your donation using Zelle with this QR code:</DonateH3>
                   <Zelle />
                 </DonateOptionWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Send a Check to Goals and Assists</DonateH2>
-                  <DonateH3>Email us for infomration on where to send your donation check:</DonateH3>
+                  <DonateH3>Email us for information on where to send your check:</DonateH3>
                   <DonateH3>goalsandassistsorg@gmail.com</DonateH3>
                 </DonateOptionWrapper>
               </DonateWrapper>
