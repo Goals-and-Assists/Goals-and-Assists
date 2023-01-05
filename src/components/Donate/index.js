@@ -55,7 +55,7 @@ const Donate = () => {
                 </DonateOptionWrapper>
                 <DonateOptionWrapper>
                   <DonateH2>Send a Check to Goals and Assists</DonateH2>
-                  <DonateH3>Email us at info@goalsandassists.org for infomration on where to send your donation check</DonateH3>
+                  <DonateH3>Email us at goalsandassistsorg@gmail.com for infomration on where to send your donation check</DonateH3>
                 </DonateOptionWrapper>
               </DonateWrapper>
 
