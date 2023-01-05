@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DonateContainer = styled.div`
   background: #010606;
-  height: 1000px;
+  height: 1100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,10 +26,7 @@ export const DonateWrapper = styled.div`
 `;
 
 export const DonateHeaderWrapper = styled.div`
-  padding: 25px;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* border: 3px solid red; */
+  padding-bottom: 25px;
 `;
 export const DonateOptionWrapper = styled.div`
   border: 2px solid #fff;
@@ -39,8 +36,6 @@ export const DonateOptionWrapper = styled.div`
   padding: 10px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* border: 3px solid green; */
 
   @media screen and (max-width: 480px) {
     height: 200px;
@@ -52,7 +47,6 @@ export const DonateH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
-  /* padding-left: 15px; */
   display: flex;
   justify-content: center;
   text-allign: center;
@@ -66,7 +60,7 @@ export const DonateH2 = styled.h1`
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 10px;
-  /* padding-left: 15px; */
+  padding-left: 15px;
   display: flex;
   justify-content: center;
   text-allign: center;
@@ -80,7 +74,6 @@ export const DonateH3 = styled.h1`
   font-size: 1rem;
   color: #fff;
   margin-bottom: 40px;
-  /* padding-left: 10px; */
   display: flex;
   justify-content: center;
   text-allign: center;
@@ -91,3 +84,17 @@ export const DonateH3 = styled.h1`
 `;
 
 export const PayPalBtnWrap = styled.div``;
+
+export const ContributionWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+`;
+
+export const Contribution = styled.p`
+  color: #fff;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+`;
