@@ -1,58 +1,44 @@
 import styled from "styled-components";
 
 export const SupportItemsContainer = styled.div`
-    /* height: 800px; */
-    color: #000;
-    background: '#f9f9f9';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 50px;
-    /* border: 5px solid red; */
-
-`
+  /* height: 800px; */
+  color: #000;
+  background: "#f9f9f9";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  /* border: 5px solid red; */
+`;
 
 export const SupportItemsWrapper = styled.div`
-    /* display: grid;
-    z-index: 1;
-    height: 860px;
+  width: 75%;
+
+  @media screen and (max-width: 768px) {
     width: 100%;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 24px;
-    justify-content: center; */
-    /* border: 5px solid red; */
-    width: 75%;
+  }
+`;
 
-    @media screen and (max-width: 768px) {
-        width: 100%;
-    }
-`
-
-export const TextWrapper = styled.div`
-    /* width: 100%; */
-`
+export const TextWrapper = styled.div``;
 export const Heading = styled.h1`
-    margin-bottom: 24px;
-    font-size: 48px;
-    line-height: 1.1.%;
-    font-weight: 600;
-    color: '#f7f8fa';
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1.%;
+  font-weight: 600;
+  color: "#f7f8fa";
 
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
-    }
-`
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+`;
 export const Subtitle = styled.p`
-    /* max-width: 440px; */
-    margin-bottom: 24px;
-    font-size: 18px;
-    line-height: 1.2;
-    color:  '#fff';
-    text-indent: 2%;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.2;
+  color: "#fff";
+  text-indent: 2%;
 
-    @media screen and (max-width: 768px) {
-        text-indent: 10%;
-    }
-`
+  @media screen and (max-width: 768px) {
+    text-indent: 10%;
+  }
+`;

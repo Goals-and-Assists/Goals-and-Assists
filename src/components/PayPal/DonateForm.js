@@ -1,16 +1,21 @@
-import React, {useState, useEffect, useRef } from 'react'
-import { DonateFormContainer } from './DonateFormElements'
-import { PayPalButtons } from '@paypal/react-paypal-js'
+import React, { useState, useEffect, useRef } from "react";
+import { DonateFormContainer } from "./DonateFormElements";
+import { PayPalButtons } from "@paypal/react-paypal-js";
 
 const DonateForm = () => {
-  const [amount, setAmount] = useState("5.00")
+  const [amount, setAmount] = useState("5.00");
 
   function AmountPicker({ onAmountChange }) {
     return (
       <fieldset onChange={onAmountChange}>
         <legend>Donation Amount</legend>
         <label>
-          <input type="radio" value="5.00" defaultChecked="true" name="amount" />
+          <input
+            type="radio"
+            value="5.00"
+            defaultChecked="true"
+            name="amount"
+          />
           5.00
         </label>
         <label>
@@ -23,17 +28,16 @@ const DonateForm = () => {
         </label>
       </fieldset>
     );
-  } 
+  }
 
   const DonateButton = ({ currency, amount }) => {
     const amountRef = useRef(amount);
     useEffect(() => {
       amountRef.current = amount;
     }, [amount]);
-  
+
     return (
       <PayPalButtons
-        // forceReRender={[currency, amount]}
         style={{ color: "black", label: "donate" }}
         fundingSource="paypal"
         createOrder={(data, actions) => {
@@ -45,9 +49,9 @@ const DonateForm = () => {
                   breakdown: {
                     item_total: {
                       currency_code: currency,
-                      value: amountRef.current
-                    }
-                  }
+                      value: amountRef.current,
+                    },
+                  },
                 },
                 items: [
                   {
@@ -57,13 +61,13 @@ const DonateForm = () => {
                     quantity: "1",
                     unit_amount: {
                       currency_code: currency,
-                      value: amountRef.current
+                      value: amountRef.current,
                     },
-                    category: "DONATION"
-                  }
-                ]
-              }
-            ]
+                    category: "DONATION",
+                  },
+                ],
+              },
+            ],
           });
         }}
       />
@@ -72,14 +76,14 @@ const DonateForm = () => {
 
   return (
     <DonateFormContainer>
-        <AmountPicker 
-            onAmountChange={(e) => {
-                setAmount(e.target.value)
-            }}
-        />
-        <DonateButton currency='USD' amount={amount} />
+      <AmountPicker
+        onAmountChange={(e) => {
+          setAmount(e.target.value);
+        }}
+      />
+      <DonateButton currency="USD" amount={amount} />
     </DonateFormContainer>
-  )
-}
+  );
+};
 
-export default DonateForm
+export default DonateForm;

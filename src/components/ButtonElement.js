@@ -1,13 +1,13 @@
-import styled from 'styled-components';
-import { Link } from 'react-scroll';
+import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export const Button = styled(Link)`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? '#F7B11D' : '#010606')};
+  background: ${({ primary }) => (primary ? "#F7B11D" : "#010606")};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-  color: ${({ dark }) => (dark ? '#010606' : '#ffffff')};
-  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
+  color: ${({ dark }) => (dark ? "#010606" : "#ffffff")};
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
   cursor: pointer;
@@ -18,10 +18,15 @@ export const Button = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#fff' : '#F7B11D')};
+    background: ${({ primary }) => (primary ? "#fff" : "#F7B11D")};
   }
 
   :before {
-        background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
-    }
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+  }
 `;
