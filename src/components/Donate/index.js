@@ -10,10 +10,12 @@ import {
   PayPalBtnWrap,
   ContributionWrapper,
   Contribution,
+  DonateIcon,
 } from "./DonateElements";
 import DonateButton from "../PayPal/DonateButton";
 import Zelle from "../Zelle/Zelle";
 import AmazonSmile from "../AmazonSmile/AmazonSmile";
+import { BiDonateHeart } from "react-icons/bi";
 
 const Donate = () => {
   return (
@@ -30,6 +32,9 @@ const Donate = () => {
       </DonateHeaderWrapper>
       <DonateWrapper>
         <DonateOptionWrapper>
+          <DonateIcon>
+            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+          </DonateIcon>
           <DonateH2>Donate with PayPal</DonateH2>
           <DonateH3>Make a one time or monthly recurring donation</DonateH3>
           <PayPalBtnWrap>
@@ -37,6 +42,9 @@ const Donate = () => {
           </PayPalBtnWrap>
         </DonateOptionWrapper>
         <DonateOptionWrapper>
+          <DonateIcon>
+            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+          </DonateIcon>
           <DonateH2>Donate with Amazon Smile</DonateH2>
           <DonateH3>
             Make Goals and Assists your beneficiary on AmazonSmile
@@ -46,11 +54,17 @@ const Donate = () => {
       </DonateWrapper>
       <DonateWrapper>
         <DonateOptionWrapper>
+          <DonateIcon>
+            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+          </DonateIcon>
           <DonateH2>Donate with Zelle</DonateH2>
           <DonateH3>Send your donation using Zelle with this QR code:</DonateH3>
           <Zelle />
         </DonateOptionWrapper>
         <DonateOptionWrapper>
+          <DonateIcon>
+            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+          </DonateIcon>
           <DonateH2>Send a Check to Goals and Assists</DonateH2>
           <DonateH3>
             Email us for information on where to send your check:
