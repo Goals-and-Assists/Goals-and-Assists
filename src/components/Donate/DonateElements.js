@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DonateContainer = styled.div`
   background: #010606;
-  height: 1100px;
+  height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
