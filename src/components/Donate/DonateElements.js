@@ -39,7 +39,7 @@ export const DonateOptionWrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 480px) {
-    height: 200px;
+    height: 300px;
     width: 300px;
   }
 `;
