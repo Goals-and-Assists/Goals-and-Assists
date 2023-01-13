@@ -67,6 +67,7 @@ export const DonateH1 = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size: 2rem;
+    margin-bottom: 30px;
   }
 `;
 
