@@ -30,12 +30,13 @@ export const DonateHeaderWrapper = styled.div`
   width: 800px;
 
   @media screen and (max-width: 768px) {
-    width: 300px;
+    width: 400px;
   }
 `;
 
 export const DonateOptionWrapper = styled.div`
-  border: 2px solid #fff;
+  border: 2px solid #01426c;
+  border-radius: 10px;
   height: 300px;
   width: 450px;
   margin: 20px;
