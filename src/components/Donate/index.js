@@ -77,10 +77,12 @@ const Donate = () => {
           Goals and Assists is a non-profit public benefit 501(c)(3) corporation
           (EIN 87-3901111) and is operated exclusively for educational and
           charitable purposes within the meaning of Section 501 (c)(3) of the
-          Internal Revenue code. Goals and Assists is not organized and shall
-          not be operated for the private gain of any person.
+          Internal Revenue code.
         </Contribution>
-        <Contribution></Contribution>
+        <Contribution>
+          Goals and Assists is not organized and shall not be operated for the
+          private gain of any person.
+        </Contribution>
       </ContributionWrapper>
     </DonateContainer>
   );

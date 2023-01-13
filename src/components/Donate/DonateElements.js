@@ -30,7 +30,7 @@ export const DonateHeaderWrapper = styled.div`
   width: 800px;
 
   @media screen and (max-width: 768px) {
-    width: 400px;
+    width: 350px;
   }
 `;
 
@@ -109,8 +109,8 @@ export const ContributionWrapper = styled.div`
 export const Contribution = styled.p`
   color: #fff;
   /* display: flex; */
-  align-items: center;
-  justify-content: center;
+  align-text: center;
+  /* justify-content: center; */
 `;
 
 export const DonateIcon = styled.div``;
