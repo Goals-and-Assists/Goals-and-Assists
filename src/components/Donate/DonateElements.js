@@ -8,7 +8,7 @@ export const DonateContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     height: auto;
   }
 `;
@@ -20,14 +20,20 @@ export const DonateWrapper = styled.div`
   /* align-items: center; */
   /* border: 3px solid red; */
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 `;
 
 export const DonateHeaderWrapper = styled.div`
   padding-bottom: 25px;
+  width: 800px;
+
+  @media screen and (max-width: 768px) {
+    width: 300px;
+  }
 `;
+
 export const DonateOptionWrapper = styled.div`
   border: 2px solid #fff;
   height: 300px;
@@ -38,7 +44,7 @@ export const DonateOptionWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     height: 300px;
     width: 300px;
   }
@@ -52,7 +58,7 @@ export const DonateH1 = styled.h1`
   justify-content: center;
   text-align: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
 `;
@@ -66,7 +72,7 @@ export const DonateH2 = styled.h1`
   justify-content: center;
   text-align: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 1rem;
   }
 `;
@@ -79,7 +85,7 @@ export const DonateH3 = styled.h1`
   justify-content: center;
   text-align: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 0.75rem;
   }
 `;
