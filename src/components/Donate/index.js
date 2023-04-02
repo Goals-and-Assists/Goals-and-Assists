@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   DonateContainer,
   DonateWrapper,
@@ -11,15 +11,15 @@ import {
   ContributionWrapper,
   Contribution,
   DonateIcon,
-} from "./DonateElements";
-import DonateButton from "../PayPal/DonateButton";
-import Zelle from "../Zelle/Zelle";
-import AmazonSmile from "../AmazonSmile/AmazonSmile";
-import { BiDonateHeart } from "react-icons/bi";
+} from './DonateElements';
+import DonateButton from '../PayPal/DonateButton';
+import Zelle from '../Zelle/Zelle';
+import AmazonSmile from '../AmazonSmile/AmazonSmile';
+import { BiDonateHeart } from 'react-icons/bi';
 
 const Donate = () => {
   return (
-    <DonateContainer id="donate">
+    <DonateContainer id='donate'>
       <DonateH1>Donate to Goals and Assists</DonateH1>
       <DonateHeaderWrapper>
         <DonateH2>
@@ -33,7 +33,7 @@ const Donate = () => {
       <DonateWrapper>
         <DonateOptionWrapper>
           <DonateIcon>
-            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+            <BiDonateHeart style={{ color: '#01426c', fontSize: '80px' }} />
           </DonateIcon>
           <DonateH2>Donate with PayPal</DonateH2>
           <DonateH3>Make a one time or monthly recurring donation</DonateH3>
@@ -41,21 +41,11 @@ const Donate = () => {
             <DonateButton />
           </PayPalBtnWrap>
         </DonateOptionWrapper>
-        <DonateOptionWrapper>
-          <DonateIcon>
-            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
-          </DonateIcon>
-          <DonateH2>Donate with Amazon Smile</DonateH2>
-          <DonateH3>
-            Make Goals and Assists your beneficiary on AmazonSmile
-          </DonateH3>
-          <AmazonSmile />
-        </DonateOptionWrapper>
       </DonateWrapper>
       <DonateWrapper>
         <DonateOptionWrapper>
           <DonateIcon>
-            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+            <BiDonateHeart style={{ color: '#01426c', fontSize: '80px' }} />
           </DonateIcon>
           <DonateH2>Donate with Zelle</DonateH2>
           <DonateH3>Send your donation using Zelle with this QR code:</DonateH3>
@@ -63,7 +53,7 @@ const Donate = () => {
         </DonateOptionWrapper>
         <DonateOptionWrapper>
           <DonateIcon>
-            <BiDonateHeart style={{ color: "#01426c", fontSize: "80px" }} />
+            <BiDonateHeart style={{ color: '#01426c', fontSize: '80px' }} />
           </DonateIcon>
           <DonateH2>Send a Check to Goals and Assists</DonateH2>
           <DonateH3>
