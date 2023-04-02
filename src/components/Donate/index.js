@@ -14,7 +14,6 @@ import {
 } from './DonateElements';
 import DonateButton from '../PayPal/DonateButton';
 import Zelle from '../Zelle/Zelle';
-import AmazonSmile from '../AmazonSmile/AmazonSmile';
 import { BiDonateHeart } from 'react-icons/bi';
 
 const Donate = () => {
