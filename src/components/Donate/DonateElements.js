@@ -19,17 +19,14 @@ export const DonateWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    /* border: 5px solid green; */
-    /* width: 80%; */
   }
 `;
 
 export const DonateHeaderWrapper = styled.div`
   padding-bottom: 25px;
-  width: 800px;
 
   @media screen and (max-width: 768px) {
-    width: 350px;
+    width: 80%;
   }
 `;
 
