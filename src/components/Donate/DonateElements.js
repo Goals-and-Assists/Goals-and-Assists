@@ -16,9 +16,6 @@ export const DonateContainer = styled.div`
 export const DonateWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* border: 3px solid red; */
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -52,6 +49,11 @@ export const DonateOptionWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
+    height: 370px;
+    width: 280px;
+  }
+
+  @media screen and (max-width: 480px) {
     height: 370px;
     width: 280px;
   }
