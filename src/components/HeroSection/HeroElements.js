@@ -48,11 +48,9 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 
   @media screen and (max-width: 768px) {
     height: 100%;
-    padding-top: 60px;
   }
 `;
 
@@ -108,11 +106,10 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `;
 
 export const ImgLogo = styled.img`
-  width: 100%;
-  max-width: 350px;
-  height: auto;
+  width: 350px;
+  height: 350px;
 
   @media screen and (max-width: 768px) {
-    max-width: 250px;
+    padding-top: 60px;
   }
 `;
