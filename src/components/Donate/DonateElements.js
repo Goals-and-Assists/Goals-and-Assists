@@ -48,15 +48,9 @@ export const DonateOptionWrapper = styled.div`
     cursor: pointer;
   }
 
-  @media screen and (max-width: 768px) {
-    height: 300px;
-    width: 280px;
-    margin: 10px;
-  }
-
   @media screen and (max-width: 480px) {
     height: 300px;
-    width: 280px;
+    width: 300px;
     margin: 10px;
   }
 `;
