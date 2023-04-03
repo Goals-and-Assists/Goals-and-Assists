@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import styled from 'styled-components';
+import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
   z-index: 1;
 
   :before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -48,9 +48,11 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
     height: 100%;
+    padding-top: 60px;
   }
 `;
 
@@ -106,10 +108,11 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `;
 
 export const ImgLogo = styled.img`
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
 
   @media screen and (max-width: 768px) {
-    padding-top: 60px;
+    max-width: 250px;
   }
 `;

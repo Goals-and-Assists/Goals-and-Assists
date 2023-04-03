@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const DonateContainer = styled.div`
   background: #010606;
-  height: 1200px;
+  height: 1300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +37,7 @@ export const DonateHeaderWrapper = styled.div`
 export const DonateOptionWrapper = styled.div`
   border: 2px solid #01426c;
   border-radius: 10px;
-  height: 300px;
+  height: 370px;
   width: 450px;
   margin: 20px;
   padding: 10px;
@@ -52,7 +52,7 @@ export const DonateOptionWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 300px;
+    height: 370px;
     width: 300px;
   }
 `;

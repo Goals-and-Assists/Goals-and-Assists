@@ -1,22 +1,14 @@
-import styled from "styled-components";
-import { GiSoccerField } from "react-icons/gi";
+import styled from 'styled-components';
+import { GiSoccerField } from 'react-icons/gi';
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
   padding-bottom: 40px;
-
-  @media screen and (max-width: 768px) {
-    height: auto;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: auto;
-  }
 `;
 
 export const ServicesWrapper = styled.div`
@@ -56,17 +48,18 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
 `;
 
 export const ServicesIcon = styled.div`
-  /* height: 160px;
-    width: 160px; */
-  /* margin-bottom: 10px; */
   font-size: 0px;
-  currentcolor: "#01426C";
-  fill: "#01426C";
-  stroke: "#01426C";
-  /* border: 5px solid red; */
+  currentcolor: '#01426C';
+  fill: '#01426C';
+  stroke: '#01426C';
 `;
 
 export const ServicesH1 = styled.h1`
@@ -87,10 +80,10 @@ export const ServicesH2 = styled.h2`
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1 rem;
+  font-size: 1rem;
   text-align: center;
 `;
 
 export const SportsIcon = styled(GiSoccerField)`
-  color: "#01426C";
+  color: '#01426C';
 `;
