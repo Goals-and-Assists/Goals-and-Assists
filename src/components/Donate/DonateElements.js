@@ -19,8 +19,8 @@ export const DonateWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    border: 5px solid green;
-    width: 80%;
+    /* border: 5px solid green; */
+    /* width: 80%; */
   }
 `;
 
