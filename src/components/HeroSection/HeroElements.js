@@ -32,11 +32,18 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border: 1px solid red;
+
+  @media screen and (max-width: 768px) {
+    height: 80%;
+    width: 80%;
+  }
 `;
 
 export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
+  border: 2px solid red;
 `;
 
 export const HeroContent = styled.div`
@@ -81,6 +88,7 @@ export const HeroP = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 20px;
+    margin-top: 5px;
   }
 `;
 
