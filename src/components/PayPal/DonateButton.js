@@ -1,13 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { DonateFormContainer } from './DonateFormElements';
-import styled from 'styled-components';
-
-const StyledDonateButton = styled.div`
-  & button {
-    max-width: 100px; // set your desired width
-    height: 50px; // set your desired height
-  }
-`;
 
 const DonateButton = () => {
   const buttonRef = useRef(null);
@@ -21,17 +13,18 @@ const DonateButton = () => {
         alt: 'Donate with PayPal button',
         title: 'PayPal - The safer, easier way to pay online!',
         style: {
-          size: 'responsive', // or "small", "large", "responsive"
+          size: 'small', // or "small", "large", "responsive"
         },
       },
     });
+
     button.render(`#${buttonRef.current.id}`);
   }, []);
   return (
     <>
-      <StyledDonateButton>
+      <DonateFormContainer>
         <div ref={buttonRef} id={buttonId} />
-      </StyledDonateButton>
+      </DonateFormContainer>
     </>
   );
 };
