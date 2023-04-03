@@ -53,7 +53,7 @@ export const DonateOptionWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 370px;
-    width: 300px;
+    width: 280px;
   }
 `;
 
