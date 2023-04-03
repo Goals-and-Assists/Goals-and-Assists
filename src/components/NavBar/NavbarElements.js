@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
+import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
   background: #01426c;
@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 100%;
 `;
 
 export const NavLogo = styled(LinkR)`

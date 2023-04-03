@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 
 export const FooterContainer = styled.footer`
   /* background: #101522; */
@@ -12,8 +12,6 @@ export const FooterWrap = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* max-width: 1100px; */
-  /* margin: 0 auto; */
 
   @media screen and (max-width: 768px) {
     /* width: 100%; */
@@ -40,17 +38,13 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* margin: 16px; */
   text-align: left;
   width: 120px;
-  /* box-sizing: border-box; */
   color: #fff;
-  /* margin-top: 5%; */
 
   @media screen and (max-width: 420) {
     margin: 0;
     padding: 10px;
-    /* width: 100%; */
   }
 `;
 

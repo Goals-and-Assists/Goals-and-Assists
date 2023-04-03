@@ -3,6 +3,7 @@ import { GiSoccerField } from 'react-icons/gi';
 
 export const ServicesContainer = styled.div`
   height: auto;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,21 +13,21 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
-  padding: 0 50px;
+  /* padding: 0 50px; */
 
-  @media screen and (max-width: 1000px) {
+  /* @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    /* padding: 40px; */
   }
 `;
 
@@ -51,7 +52,7 @@ export const ServicesCard = styled.div`
 
   @media screen and (max-width: 768px) {
     height: auto;
-    width: 100%;
+    /* width: 100%; */
   }
 `;
 
