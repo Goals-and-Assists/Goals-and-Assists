@@ -19,6 +19,8 @@ export const DonateWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    border: 5px solid green;
+    width: 80%;
   }
 `;
 
@@ -42,11 +44,11 @@ export const DonateOptionWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 
-  &:hover {
+  /* &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-  }
+  } */
 
   @media screen and (max-width: 480px) {
     height: 300px;
