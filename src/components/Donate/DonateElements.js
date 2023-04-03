@@ -49,16 +49,17 @@ export const DonateOptionWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 370px;
+    height: 300px;
     width: 280px;
+    margin: 10px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 370px;
-    width: 280px;
+    height: 300px;
+    width: 220px;
+    margin: 10px;
   }
 `;
-
 export const DonateH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
@@ -100,7 +101,10 @@ export const DonateH3 = styled.h1`
   }
 `;
 
-export const PayPalBtnWrap = styled.div``;
+export const PayPalBtnWrap = styled.div`
+  /* border: 1px solid red;
+  width: 100px; */
+`;
 
 export const ContributionWrapper = styled.div`
   display: flex;
