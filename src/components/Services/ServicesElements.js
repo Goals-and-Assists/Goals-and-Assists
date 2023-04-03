@@ -26,8 +26,9 @@ export const ServicesWrapper = styled.div`
   } */
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 `;
 
@@ -52,7 +53,7 @@ export const ServicesCard = styled.div`
 
   @media screen and (max-width: 768px) {
     height: auto;
-    /* width: 100%; */
+    width: 80%;
   }
 `;
 

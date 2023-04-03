@@ -79,12 +79,8 @@ export const HeroP = styled.p`
   text-align: center;
   max-width: 600px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
-  }
-
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 20px;
   }
 `;
 
