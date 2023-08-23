@@ -15,6 +15,7 @@ import {
 import DonateButton from '../PayPal/DonateButton';
 // import DonationForm from './ElavonForm';
 import Zelle from '../Zelle/Zelle';
+import GoFundMeBtn from '../GoFundMe/GoFundMeBtn';
 import { BiDonateHeart } from 'react-icons/bi';
 
 const Donate = () => {
@@ -41,14 +42,17 @@ const Donate = () => {
             <DonateButton />
           </PayPalBtnWrap>
         </DonateOptionWrapper>
-        {/* <DonateOptionWrapper>
+        <DonateOptionWrapper>
           <DonateIcon>
             <BiDonateHeart style={{ color: '#01426c', fontSize: '80px' }} />
           </DonateIcon>
-          <DonateH2>Donate with Elavon</DonateH2>
-          <DonateH3>Make a one time donation</DonateH3>
-          <DonationForm />
-        </DonateOptionWrapper> */}
+          <DonateH2>GoFundMe</DonateH2>
+          <DonateH3>
+            Help Isaac Study Another Year in America! <br /> Isaac has big
+            goals. Can he count on you for an assist?
+          </DonateH3>
+          <GoFundMeBtn />
+        </DonateOptionWrapper>
       </DonateWrapper>
       <DonateWrapper>
         <DonateOptionWrapper>
