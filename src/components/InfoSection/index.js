@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   InfoContainer,
   InfoWrapper,
@@ -11,13 +11,14 @@ import {
   Subtitle,
   ImgWrap,
   Img,
-} from "./InfoElements";
-import Image from "../../images/goals_and_assists.jpg";
+} from './InfoElements';
+import { Element } from 'react-scroll';
+import Image from '../../images/goals_and_assists.jpg';
 
 const InfoSection = () => {
   return (
-    <div>
-      <InfoContainer id="mission">
+    <Element name='mission'>
+      <InfoContainer>
         <InfoWrapper>
           <InfoRow>
             <Column1>
@@ -38,13 +39,13 @@ const InfoSection = () => {
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={Image} alt="student" />
+                <Img src={Image} alt='student' />
               </ImgWrap>
             </Column2>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
-    </div>
+    </Element>
   );
 };
 

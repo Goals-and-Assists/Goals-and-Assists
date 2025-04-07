@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { FaBars } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
+import React, { useState, useEffect } from 'react';
+import { FaBars } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
 import {
   Nav,
   NavbarContainer,
@@ -11,7 +11,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-} from "./NavbarElements";
+} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener('scroll', changeNav);
   }, []);
 
   const toggleHome = () => {
@@ -39,8 +39,8 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav scrollNav={scrollNav}>
-        <NavbarContainer id="nav">
-          <NavLogo to="/" onClick={toggleHome}>
+        <NavbarContainer id='nav'>
+          <NavLogo to='/' onClick={toggleHome}>
             Goals and Assists
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -49,11 +49,11 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="mission"
+                to='mission'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 Our Mission
@@ -61,11 +61,11 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="support"
+                to='support'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 How to Support
@@ -73,11 +73,11 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="donate"
+                to='donate'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 Donate
