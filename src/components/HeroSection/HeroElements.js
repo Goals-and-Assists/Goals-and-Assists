@@ -41,7 +41,6 @@ export const HeroBg = styled.div`
 export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 `;
 
 export const HeroContent = styled.div`

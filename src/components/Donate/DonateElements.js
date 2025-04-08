@@ -95,8 +95,7 @@ export const DonateH3 = styled.h1`
 `;
 
 export const PayPalBtnWrap = styled.div`
-  /* border: 1px solid red;
-  width: 100px; */
+  /*width: 100px; */
 `;
 
 export const ContributionWrapper = styled.div`
