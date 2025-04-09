@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%
+        rgba(0, 0, 0, 0.4) 100%
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
@@ -28,6 +28,11 @@ export const HeroContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 600px;
+    padding: 36px 0px;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 500px;
   }
 `;
 
@@ -41,25 +46,29 @@ export const HeroBg = styled.div`
 export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: cover;
 `;
 
 export const HeroContent = styled.div`
   border-radius: 10px;
-  background: #000;
+  background: rgba(0, 0, 0, 0.7);
   z-index: 3;
   position: absolute;
-  padding: 8px 24px;
+  padding: 24px 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 90%;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
-    height: 100%;
+    padding: 12px 16px;
   }
 `;
 
 export const HeroContentBg = styled.div`
   display: flex;
+  justify-content: center;
 `;
 
 export const HeroH1 = styled.h1`
@@ -77,20 +86,25 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
+  margin-top: 16px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  max-width: 600px;
+  max-width: 500px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+    margin-top: 12px;
+  }
 
   @media screen and (max-width: 480px) {
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 16px;
+    margin-top: 8px;
   }
 `;
 
 export const HeroBtnWrapper = styled.div`
-  margin-top: 10px;
+  margin-top: 16px;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -107,10 +121,18 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `;
 
 export const ImgLogo = styled.img`
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
 
   @media screen and (max-width: 768px) {
-    padding-top: 60px;
+    width: 200px;
+    padding-top: 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 160px;
+    padding-top: 10px;
   }
 `;
